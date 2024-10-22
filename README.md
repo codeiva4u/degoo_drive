@@ -34,7 +34,7 @@ python3 -m pip install appdirs wget python-magic humanize humanfriendly python-d
 
 All in one:
 ````shell
-apt update && apt install -y --no-install-recommends git libfuse3-dev fuse3 python3.8 python3-pip pkg-config && python3.8 -m pip install appdirs wget python-magic humanize humanfriendly python-dateutil requests clint requests_toolbelt pyfuse3
+apt update && apt install -y --no-install-recommends git libfuse3-dev fuse3 python3-pip pkg-config && python3 -m pip install appdirs wget python-magic humanize humanfriendly python-dateutil requests clint requests_toolbelt pyfuse3
 ````
 
 ## Installation
