@@ -14,12 +14,22 @@ Because Degoo does not provide a way to use their application as a virtual drive
 apt update
 apt install -y --no-install-recommends git
 apt install -y libfuse3-dev fuse3
-apt install -y python3.8
 apt install -y python3-pip
 apt install -y pkg-config
-apt install -y python3.8-dev
+pip install -r requirements.txt
 
-python3.8 -m pip install appdirs wget python-magic humanize humanfriendly python-dateutil requests clint requests_toolbelt pyfuse3 pyjwt
+python3 -m pip install appdirs wget python-magic humanize humanfriendly python-dateutil requests clint requests_toolbelt pyfuse3 pyjwt
+````
+
+````shell
+apt update
+apt install -y --no-install-recommends git
+apt install -y libfuse3-dev fuse3
+apt install -y python3-pip
+apt install -y pkg-config
+pip install -r requirements.txt
+
+python3 -m pip install appdirs wget python-magic humanize humanfriendly python-dateutil requests clint requests_toolbelt pyfuse3 pyjwt
 ````
 
 All in one:
@@ -29,7 +39,8 @@ apt update && apt install -y --no-install-recommends git libfuse3-dev fuse3 pyth
 
 ## Installation
 
-You must clone this repository ``git clone https://github.com/MDKPredator/degoo_drive``. Ensure you have installed git: ``apt install git``
+ Ensure you have installed git ``apt install git``You must clone this repository ``git clone https://github.com/MDKPredator/degoo_drive
+cd degoo_drive``. 
 
 ## Configuration
 
